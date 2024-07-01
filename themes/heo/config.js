@@ -1,12 +1,12 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-04-23', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到田西柚的博客', url: 'https://notion-next-rust-ten-48.vercel.app' }
-    //{ title: '访问文档中心获取更多帮助', url: 'https://notion-next-rust-ten-48.vercel.app/' }
+    { title: '欢迎来到田西柚的博客', url: 'https://blog.tianxiyou.site/' }
+    //{ title: '访问文档中心获取更多帮助', url: 'https://blog.tianxiyou.site//' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,7 +20,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'TianXiYou',
   HEO_HERO_TITLE_4: '新文上线',
   HEO_HERO_TITLE_5: '随便逛逛或者点击右侧',
-  HEO_HERO_TITLE_LINK: 'https://notion-next-rust-ten-48.vercel.app',
+  HEO_HERO_TITLE_LINK: 'https://blog.tianxiyou.site/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -108,7 +108,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '博主邮箱',
   HEO_SOCIAL_CARD_TITLE_2: 'tz1063659575@gmail.com',
   HEO_SOCIAL_CARD_TITLE_3: '期待您的来信',
-  HEO_SOCIAL_CARD_URL: 'https://notion-next-rust-ten-48.vercel.app',
+  HEO_SOCIAL_CARD_URL: 'https://blog.tianxiyou.site/',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
