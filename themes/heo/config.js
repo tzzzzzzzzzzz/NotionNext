@@ -4,12 +4,12 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-04-23', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    // { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,12 +18,12 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: '分享生活',
+  HEO_HERO_TITLE_2: '思考大于言语',
+  HEO_HERO_TITLE_3: 'TianXiYou',
+  HEO_HERO_TITLE_4: '新文上线',
+  HEO_HERO_TITLE_5: '随便逛逛或者点击右侧',
+  HEO_HERO_TITLE_LINK: 'https://blog.tianxiyou.site/',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -40,51 +40,49 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🎮 爱LOL和老头环',
+    '⛪️ 已婚的可怜社畜',
+    '📒 想写但是写不出',
+    '💻 折腾折腾折腾～'
   ],
 
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
-  HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  // HEO_INFO_CARD_ICON1: 'fas fa-user',
+  // HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  // HEO_INFO_CARD_ICON2: 'fab fa-github',
+  // HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
   HEO_INFO_CARD_TEXT3: '了解更多',
-
+  // HEO_INFO_CARD_URL: 'https://github.com/tzzzzzzzzzzz/NotionNext', // 个人资料底部按钮链接
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
-      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      title_1: 'LOL',
+      img_1: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117091720592.png',
       color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      title_2: 'Java',
+      img_2: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117085819838.png',
       color_2: '#ffffff'
     },
     {
       title_1: 'Docker',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
       color_1: '#57b6e6',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      title_2: 'K-ON',
+      img_2: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117092343956.png',
       color_2: '#4082c3'
     },
     {
-      title_1: 'FinalCutPro',
-      img_1: '/images/heo/20233e777652412247dd57fd9b48cf997c01070702.webp',
+      title_1: '悟空',
+      img_1: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117092422612.png',
       color_1: '#ffffff',
-      title_2: 'Python',
-      img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
+      title_2: 'Suwayomi',
+      img_2: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117092631707.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Swift',
-      img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
+      title_1: 'Github',
+      img_1: 'https://cdn.jsdelivr.net/gh/tzzzzzzzzzzz/blog-img@main/20250117092945129.png',
       color_1: '#eb6840',
       title_2: 'Principle',
       img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
@@ -117,10 +115,10 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_1: '博主邮箱',
+  HEO_SOCIAL_CARD_TITLE_2: 'tz1063659575@gmail.com',
+  HEO_SOCIAL_CARD_TITLE_3: '期待您的来信',
+  HEO_SOCIAL_CARD_URL: 'https://blog.tianxiyou.site/',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
